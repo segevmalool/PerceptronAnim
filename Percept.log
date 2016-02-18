@@ -1,0 +1,944 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  23 DEC 2015 15:17
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**\nonstopmode \input ./Percept.tex
+(./Percept.tex (/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 94.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2014/10/28 v1.1a Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 142.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/framed/framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip43
+\fb@frw=\dimen105
+\fb@frh=\dimen106
+\FrameRule=\dimen107
+\FrameSep=\dimen108
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/alltt.sty
+Package: alltt 1997/06/16 v2.0g defines alltt environment
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count88
+\Gm@cntv=\count89
+\c@Gm@tempcnt=\count90
+\Gm@bindingoffset=\dimen109
+\Gm@wd@mp=\dimen110
+\Gm@odd@mp=\dimen111
+\Gm@even@mp=\dimen112
+\Gm@layoutwidth=\dimen113
+\Gm@layoutheight=\dimen114
+\Gm@layouthoffset=\dimen115
+\Gm@layoutvoffset=\dimen116
+\Gm@dimlist=\toks15
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/titling/titling.sty
+Package: titling 2009/09/04 v2.1d maketitle typesetting
+\thanksmarkwidth=\skip44
+\thanksmargin=\skip45
+\droptitle=\skip46
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/animate/animate.sty
+Package: animate 2015/03/11 PDF animations from files and inline graphics
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/ifdraft.sty
+Package: ifdraft 2008/08/11 v1.3 Detect class options draft and final (HO)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count91
+\calc@Bcount=\count92
+\calc@Adimen=\dimen117
+\calc@Bdimen=\dimen118
+\calc@Askip=\skip47
+\calc@Bskip=\skip48
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count93
+\calc@Cskip=\skip49
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/atenddvi.sty
+Package: atenddvi 2007/04/17 v1.1 At end DVI hook (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/zref-abspage.sty
+Package: zref-abspage 2012/04/04 v2.24 Module abspage for zref (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/zref-base.sty
+Package: zref-base 2012/04/04 v2.24 Module base for zref (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+))
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+Package zref Info: New property list: main on input line 759.
+Package zref Info: New property: default on input line 760.
+Package zref Info: New property: page on input line 761.
+)
+\c@abspage=\count94
+Package zref Info: New property: abspage on input line 62.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/zref-lastpage.sty
+Package: zref-lastpage 2012/04/04 v2.24 Module lastpage for zref (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/atveryend.sty
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+)
+Package zref Info: New property list: LastPage on input line 55.
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/animate/animfp.sty
+Package: animfp 2009/07/23 fixed point addition for animate.sty
+\afp@xs=\count95
+\afp@xia=\count96
+\afp@xib=\count97
+\afp@xfa=\count98
+\afp@xfb=\count99
+\afp@rega=\count100
+\afp@regb=\count101
+\afp@regs=\count102
+)
+(/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count103
+\scratchdimen=\dimen119
+\scratchbox=\box26
+\nofMPsegments=\count104
+\nofMParguments=\count105
+\everyMPshowfont=\toks16
+\MPscratchCnt=\count106
+\MPscratchDim=\dimen120
+\MPnumerator=\count107
+\makeMPintoPDFobject=\count108
+\everyMPtoPDFconversion=\toks17
+)
+\@anim@box=\box27
+\@anim@measbox=\box28
+\@anim@tmpdima=\dimen121
+\@anim@tmpdimb=\dimen122
+\@anim@ocnum=\count109
+\@anim@num=\count110
+\@anim@curframe=\count111
+\@anim@curframe@zb=\count112
+\@anim@resizeflags=\count113
+\@anim@skipfram=\count114
+\@anim@mulframecnt=\count115
+\@anim@@tmlnfile=\read1
+\@anim@tmpcnt=\count116
+\c@@anim@ltxcnt=\count117
+\@anim@curlayer=\count118
+\@anim@lineno=\count119
+\@anim@curfield=\count120
+\@anim@begin=\toks18
+\@anim@end=\toks19
+\@anim@@resizeflags=\count121
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+)
+
+LaTeX Warning: Unused global option(s):
+    [8pt].
+
+(./Percept.aux)
+\openout1 = `Percept.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: includehead 
+* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
+* v-part:(T,H,B)=(85.35826pt, 674.33032pt, 85.35826pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=483.69687pt
+* \textheight=649.33032pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=13.08827pt
+* \headheight=0.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=19.91692pt
+* \marginparwidth=57.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\AtBeginShipoutBox=\box29
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 68.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 68.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 68.
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
+
+ []
+
+ <./perceptronTraining.pdf> <1> <./perceptronTraining.pdf> <2> <./perceptronTra
+ining.pdf> <3> <./perceptronTraining.pdf> <4> <./perceptronTraining.pdf> <5> <.
+/perceptronTraining.pdf> <6> <./perceptronTraining.pdf> <7> <./perceptronTraini
+ng.pdf> <8> <./perceptronTraining.pdf> <9> <./perceptronTraining.pdf> <10> <./p
+erceptronTraining.pdf> <11> <./perceptronTraining.pdf> <12> <./perceptronTraini
+ng.pdf> <13> <./perceptronTraining.pdf> <14> <./perceptronTraining.pdf> <15> <.
+/perceptronTraining.pdf> <16> <./perceptronTraining.pdf> <17> <./perceptronTrai
+ning.pdf> <18> <./perceptronTraining.pdf> <19> <./perceptronTraining.pdf> <20> 
+<./perceptronTraining.pdf> <21> <./perceptronTraining.pdf> <22> <./perceptronTr
+aining.pdf> <23> <./perceptronTraining.pdf> <24> <./perceptronTraining.pdf>
+<25> <./perceptronTraining.pdf> <26> <./perceptronTraining.pdf> <27> <./percept
+ronTraining.pdf> <28> <./perceptronTraining.pdf> <29> <./perceptronTraining.pdf
+> <30> <./perceptronTraining.pdf> <31> <./perceptronTraining.pdf> <32> <./perce
+ptronTraining.pdf> <33> <./perceptronTraining.pdf> <34> <./perceptronTraining.p
+df> <35> <./perceptronTraining.pdf> <36> <./perceptronTraining.pdf> <37> <./per
+ceptronTraining.pdf> <38> <./perceptronTraining.pdf> <39> <./perceptronTraining
+.pdf> <40> <./perceptronTraining.pdf> <41> <./perceptronTraining.pdf> <42> <./p
+erceptronTraining.pdf> <43> <./perceptronTraining.pdf> <44> <./perceptronTraini
+ng.pdf> <45> <./perceptronTraining.pdf> <46> <./perceptronTraining.pdf> <47> <.
+/perceptronTraining.pdf> <48> <./perceptronTraining.pdf> <49> <./perceptronTrai
+ning.pdf> <50> <./perceptronTraining.pdf> <51> <./perceptronTraining.pdf> <52> 
+<./perceptronTraining.pdf> <53> <./perceptronTraining.pdf> <54> <./perceptronTr
+aining.pdf> <55> <./perceptronTraining.pdf> <56> <./perceptronTraining.pdf>
+<57> <./perceptronTraining.pdf> <58> <./perceptronTraining.pdf> <59> <./percept
+ronTraining.pdf> <60> <./perceptronTraining.pdf> <61> <./perceptronTraining.pdf
+> <62> <./perceptronTraining.pdf> <63> <./perceptronTraining.pdf> <64> <./perce
+ptronTraining.pdf> <65> <./perceptronTraining.pdf> <66> <./perceptronTraining.p
+df> <67> <./perceptronTraining.pdf> <68> <./perceptronTraining.pdf> <69> <./per
+ceptronTraining.pdf> <70> <./perceptronTraining.pdf> <71> <./perceptronTraining
+.pdf> <72> <./perceptronTraining.pdf> <73> <./perceptronTraining.pdf> <74> <./p
+erceptronTraining.pdf> <75> <./perceptronTraining.pdf> <76> <./perceptronTraini
+ng.pdf> <77> <./perceptronTraining.pdf> <78> <./perceptronTraining.pdf> <79> <.
+/perceptronTraining.pdf> <80> <./perceptronTraining.pdf> <81> <./perceptronTrai
+ning.pdf> <82> <./perceptronTraining.pdf> <83> <./perceptronTraining.pdf> <84> 
+<./perceptronTraining.pdf> <85> <./perceptronTraining.pdf> <86> <./perceptronTr
+aining.pdf> <87> <./perceptronTraining.pdf> <88> <./perceptronTraining.pdf>
+<89> <./perceptronTraining.pdf> <90> <./perceptronTraining.pdf> <91> <./percept
+ronTraining.pdf> <92> <./perceptronTraining.pdf> <93> <./perceptronTraining.pdf
+> <94> <./perceptronTraining.pdf> <95> <./perceptronTraining.pdf> <96> <./perce
+ptronTraining.pdf> <97> <./perceptronTraining.pdf> <98> <./perceptronTraining.p
+df> <99> <./perceptronTraining.pdf> <100> <./perceptronTraining.pdf> <101> <./p
+erceptronTraining.pdf> <102> <./perceptronTraining.pdf> <103> <./perceptronTrai
+ning.pdf> <104> <./perceptronTraining.pdf> <105> <./perceptronTraining.pdf>
+<106> <./perceptronTraining.pdf> <107> <./perceptronTraining.pdf> <108> <./perc
+eptronTraining.pdf> <109> <./perceptronTraining.pdf> <110> <./perceptronTrainin
+g.pdf> <111> <./perceptronTraining.pdf> <112> <./perceptronTraining.pdf> <113> 
+<./perceptronTraining.pdf> <114> <./perceptronTraining.pdf> <115> <./perceptron
+Training.pdf> <116> <./perceptronTraining.pdf> <117> <./perceptronTraining.pdf>
+<118> <./perceptronTraining.pdf> <119> <./perceptronTraining.pdf> <120> <./perc
+eptronTraining.pdf> <121> <./perceptronTraining.pdf> <122> <./perceptronTrainin
+g.pdf> <123> <./perceptronTraining.pdf> <124> <./perceptronTraining.pdf> <125> 
+<./perceptronTraining.pdf> <126> <./perceptronTraining.pdf> <127> <./perceptron
+Training.pdf> <128> <./perceptronTraining.pdf> <129> <./perceptronTraining.pdf>
+<130> <./perceptronTraining.pdf> <131> <./perceptronTraining.pdf> <132> <./perc
+eptronTraining.pdf> <133> <./perceptronTraining.pdf> <134> <./perceptronTrainin
+g.pdf> <135> <./perceptronTraining.pdf> <136> <./perceptronTraining.pdf> <137> 
+<./perceptronTraining.pdf> <138> <./perceptronTraining.pdf> <139> <./perceptron
+Training.pdf> <140> <./perceptronTraining.pdf> <141> <./perceptronTraining.pdf>
+<142> <./perceptronTraining.pdf> <143> <./perceptronTraining.pdf> <144> <./perc
+eptronTraining.pdf> <145> <./perceptronTraining.pdf> <146> <./perceptronTrainin
+g.pdf> <147> <./perceptronTraining.pdf> <148> <./perceptronTraining.pdf> <149> 
+<./perceptronTraining.pdf> <150> <./perceptronTraining.pdf> <151> <./perceptron
+Training.pdf> <152> <./perceptronTraining.pdf> <153> <./perceptronTraining.pdf>
+<154> <./perceptronTraining.pdf> <155> <./perceptronTraining.pdf> <156> <./perc
+eptronTraining.pdf> <157> <./perceptronTraining.pdf> <158> <./perceptronTrainin
+g.pdf> <159> <./perceptronTraining.pdf> <160> <./perceptronTraining.pdf> <161> 
+<./perceptronTraining.pdf> <162> <./perceptronTraining.pdf> <163> <./perceptron
+Training.pdf> <164> <./perceptronTraining.pdf> <165> <./perceptronTraining.pdf>
+<166> <./perceptronTraining.pdf> <167> <./perceptronTraining.pdf> <168> <./perc
+eptronTraining.pdf> <169> <./perceptronTraining.pdf> <170> <./perceptronTrainin
+g.pdf> <171> <./perceptronTraining.pdf> <172> <./perceptronTraining.pdf> <173> 
+<./perceptronTraining.pdf> <174> <./perceptronTraining.pdf> <175> <./perceptron
+Training.pdf> <176> <./perceptronTraining.pdf> <177> <./perceptronTraining.pdf>
+<178> <./perceptronTraining.pdf> <179> <./perceptronTraining.pdf> <180> <./perc
+eptronTraining.pdf> <181> <./perceptronTraining.pdf> <182> <./perceptronTrainin
+g.pdf> <183> <./perceptronTraining.pdf> <184> <./perceptronTraining.pdf> <185> 
+<./perceptronTraining.pdf> <186> <./perceptronTraining.pdf> <187> <./perceptron
+Training.pdf> <188> <./perceptronTraining.pdf> <189> <./perceptronTraining.pdf>
+<190> <./perceptronTraining.pdf> <191> <./perceptronTraining.pdf> <192> <./perc
+eptronTraining.pdf> <193> <./perceptronTraining.pdf> <194> <./perceptronTrainin
+g.pdf> <195> <./perceptronTraining.pdf> <196> <./perceptronTraining.pdf> <197> 
+<./perceptronTraining.pdf> <198> <./perceptronTraining.pdf> <199> <./perceptron
+Training.pdf> <200> <./perceptronTraining.pdf> <201> <./perceptronTraining.pdf>
+<202> <./perceptronTraining.pdf> <203> <./perceptronTraining.pdf> <204> <./perc
+eptronTraining.pdf> <205> <./perceptronTraining.pdf> <206> <./perceptronTrainin
+g.pdf> <207> <./perceptronTraining.pdf> <208> <./perceptronTraining.pdf> <209> 
+<./perceptronTraining.pdf> <210> <./perceptronTraining.pdf> <211> <./perceptron
+Training.pdf> <212> <./perceptronTraining.pdf> <213> <./perceptronTraining.pdf>
+<214> <./perceptronTraining.pdf> <215> <./perceptronTraining.pdf> <216> <./perc
+eptronTraining.pdf> <217> <./perceptronTraining.pdf> <218> <./perceptronTrainin
+g.pdf> <219> <./perceptronTraining.pdf> <220> <./perceptronTraining.pdf> <221> 
+<./perceptronTraining.pdf> <222> <./perceptronTraining.pdf> <223> <./perceptron
+Training.pdf> <224> <./perceptronTraining.pdf> <225> <./perceptronTraining.pdf>
+<226> <./perceptronTraining.pdf> <227> <./perceptronTraining.pdf> <228> <./perc
+eptronTraining.pdf> <229> <./perceptronTraining.pdf> <230> <./perceptronTrainin
+g.pdf> <231> <./perceptronTraining.pdf> <232> <./perceptronTraining.pdf> <233> 
+<./perceptronTraining.pdf> <234> <./perceptronTraining.pdf> <235> <./perceptron
+Training.pdf> <236> <./perceptronTraining.pdf> <237> <./perceptronTraining.pdf>
+<238> <./perceptronTraining.pdf> <239> <./perceptronTraining.pdf> <240> <./perc
+eptronTraining.pdf> <241> <./perceptronTraining.pdf> <242> <./perceptronTrainin
+g.pdf> <243> <./perceptronTraining.pdf> <244> <./perceptronTraining.pdf> <245> 
+<./perceptronTraining.pdf> <246> <./perceptronTraining.pdf> <247> <./perceptron
+Training.pdf> <248> <./perceptronTraining.pdf> <249> <./perceptronTraining.pdf>
+<250> <./perceptronTraining.pdf> <251> <./perceptronTraining.pdf> <252> <./perc
+eptronTraining.pdf> <253> <./perceptronTraining.pdf> <254> <./perceptronTrainin
+g.pdf> <255> <./perceptronTraining.pdf> <256> <./perceptronTraining.pdf> <257> 
+<./perceptronTraining.pdf> <258> <./perceptronTraining.pdf> <259> <./perceptron
+Training.pdf> <260> <./perceptronTraining.pdf> <261> <./perceptronTraining.pdf>
+<262> <./perceptronTraining.pdf> <263> <./perceptronTraining.pdf> <264> <./perc
+eptronTraining.pdf> <265> <./perceptronTraining.pdf> <266> <./perceptronTrainin
+g.pdf> <267> <./perceptronTraining.pdf> <268> <./perceptronTraining.pdf> <269> 
+<./perceptronTraining.pdf> <270> <./perceptronTraining.pdf> <271> <./perceptron
+Training.pdf> <272> <./perceptronTraining.pdf> <273> <./perceptronTraining.pdf>
+<274> <./perceptronTraining.pdf> <275> <./perceptronTraining.pdf> <276> <./perc
+eptronTraining.pdf> <277> <./perceptronTraining.pdf> <278> <./perceptronTrainin
+g.pdf> <279> <./perceptronTraining.pdf> <280> <./perceptronTraining.pdf> <281> 
+<./perceptronTraining.pdf> <282> <./perceptronTraining.pdf> <283> <./perceptron
+Training.pdf> <284> <./perceptronTraining.pdf> <285> <./perceptronTraining.pdf>
+<286> <./perceptronTraining.pdf> <287> <./perceptronTraining.pdf> <288> <./perc
+eptronTraining.pdf> <289> <./perceptronTraining.pdf> <290> <./perceptronTrainin
+g.pdf> <291> <./perceptronTraining.pdf> <292> <./perceptronTraining.pdf> <293> 
+<./perceptronTraining.pdf> <294> <./perceptronTraining.pdf> <295> <./perceptron
+Training.pdf> <296> <./perceptronTraining.pdf> <297> <./perceptronTraining.pdf>
+<298> <./perceptronTraining.pdf> <299> <./perceptronTraining.pdf> <300> <./perc
+eptronTraining.pdf> <301> <./perceptronTraining.pdf> <302> <./perceptronTrainin
+g.pdf> <303> <./perceptronTraining.pdf> <304> <./perceptronTraining.pdf> <305> 
+<./perceptronTraining.pdf> <306> <./perceptronTraining.pdf> <307> <./perceptron
+Training.pdf> <308> <./perceptronTraining.pdf> <309> <./perceptronTraining.pdf>
+<310> <./perceptronTraining.pdf> <311> <./perceptronTraining.pdf> <312> <./perc
+eptronTraining.pdf> <313> <./perceptronTraining.pdf> <314> <./perceptronTrainin
+g.pdf> <315> <./perceptronTraining.pdf> <316> <./perceptronTraining.pdf> <317> 
+<./perceptronTraining.pdf> <318> <./perceptronTraining.pdf> <319> <./perceptron
+Training.pdf> <320> <./perceptronTraining.pdf> <321> <./perceptronTraining.pdf>
+<322> <./perceptronTraining.pdf> <323> <./perceptronTraining.pdf> <324> <./perc
+eptronTraining.pdf> <325> <./perceptronTraining.pdf> <326> <./perceptronTrainin
+g.pdf> <327> <./perceptronTraining.pdf> <328> <./perceptronTraining.pdf> <329> 
+<./perceptronTraining.pdf> <330> <./perceptronTraining.pdf> <331> <./perceptron
+Training.pdf> <332> <./perceptronTraining.pdf> <333> <./perceptronTraining.pdf>
+<334> <./perceptronTraining.pdf> <335> <./perceptronTraining.pdf> <336> <./perc
+eptronTraining.pdf> <337> <./perceptronTraining.pdf> <338> <./perceptronTrainin
+g.pdf> <339> <./perceptronTraining.pdf> <340> <./perceptronTraining.pdf> <341> 
+<./perceptronTraining.pdf> <342> <./perceptronTraining.pdf> <343> <./perceptron
+Training.pdf> <344> <./perceptronTraining.pdf> <345> <./perceptronTraining.pdf>
+<346> <./perceptronTraining.pdf> <347> <./perceptronTraining.pdf> <348> <./perc
+eptronTraining.pdf> <349> <./perceptronTraining.pdf> <350> <./perceptronTrainin
+g.pdf> <351> <./perceptronTraining.pdf> <352> <./perceptronTraining.pdf> <353> 
+<./perceptronTraining.pdf> <354> <./perceptronTraining.pdf> <355> <./perceptron
+Training.pdf> <356> <./perceptronTraining.pdf> <357> <./perceptronTraining.pdf>
+<358> <./perceptronTraining.pdf> <359> <./perceptronTraining.pdf> <360> <./perc
+eptronTraining.pdf> <361> <./perceptronTraining.pdf> <362> <./perceptronTrainin
+g.pdf> <363> <./perceptronTraining.pdf> <364> <./perceptronTraining.pdf> <365> 
+<./perceptronTraining.pdf> <366> <./perceptronTraining.pdf> <367> <./perceptron
+Training.pdf> <368> <./perceptronTraining.pdf> <369> <./perceptronTraining.pdf>
+<370> <./perceptronTraining.pdf> <371> <./perceptronTraining.pdf> <372> <./perc
+eptronTraining.pdf> <373> <./perceptronTraining.pdf> <374> <./perceptronTrainin
+g.pdf> <375> <./perceptronTraining.pdf> <376> <./perceptronTraining.pdf> <377> 
+<./perceptronTraining.pdf> <378> <./perceptronTraining.pdf> <379> <./perceptron
+Training.pdf> <380> <./perceptronTraining.pdf> <381> <./perceptronTraining.pdf>
+<382> <./perceptronTraining.pdf> <383> <./perceptronTraining.pdf> <384> <./perc
+eptronTraining.pdf> <385> <./perceptronTraining.pdf> <386> <./perceptronTrainin
+g.pdf> <387> <./perceptronTraining.pdf> <388> <./perceptronTraining.pdf> <389> 
+<./perceptronTraining.pdf> <390> <./perceptronTraining.pdf> <391> <./perceptron
+Training.pdf> <392> <./perceptronTraining.pdf> <393> <./perceptronTraining.pdf>
+<394> <./perceptronTraining.pdf> <395> <./perceptronTraining.pdf> <396> <./perc
+eptronTraining.pdf> <397> <./perceptronTraining.pdf> <398> <./perceptronTrainin
+g.pdf> <399> <./perceptronTraining.pdf> <400> <./perceptronTraining.pdf> <401> 
+<./perceptronTraining.pdf> <402> <./perceptronTraining.pdf> <403> <./perceptron
+Training.pdf> <404> <./perceptronTraining.pdf> <405> <./perceptronTraining.pdf>
+<406> <./perceptronTraining.pdf> <407> <./perceptronTraining.pdf> <408> <./perc
+eptronTraining.pdf> <409> <./perceptronTraining.pdf> <410> <./perceptronTrainin
+g.pdf> <411> <./perceptronTraining.pdf> <412> <./perceptronTraining.pdf> <413> 
+<./perceptronTraining.pdf> <414> <./perceptronTraining.pdf> <415> <./perceptron
+Training.pdf> <416> <./perceptronTraining.pdf> <417> <./perceptronTraining.pdf>
+<418> <./perceptronTraining.pdf> <419> <./perceptronTraining.pdf> <420> <./perc
+eptronTraining.pdf> <421> <./perceptronTraining.pdf> <422> <./perceptronTrainin
+g.pdf> <423> <./perceptronTraining.pdf> <424> <./perceptronTraining.pdf> <425> 
+<./perceptronTraining.pdf> <426> <./perceptronTraining.pdf> <427> <./perceptron
+Training.pdf> <428> <./perceptronTraining.pdf> <429> <./perceptronTraining.pdf>
+<430> <./perceptronTraining.pdf> <431> <./perceptronTraining.pdf> <432> <./perc
+eptronTraining.pdf> <433> <./perceptronTraining.pdf> <434> <./perceptronTrainin
+g.pdf> <435> <./perceptronTraining.pdf> <436> <./perceptronTraining.pdf> <437> 
+<./perceptronTraining.pdf> <438> <./perceptronTraining.pdf> <439> <./perceptron
+Training.pdf> <440> <./perceptronTraining.pdf> <441> <./perceptronTraining.pdf>
+<442> <./perceptronTraining.pdf> <443> <./perceptronTraining.pdf> <444> <./perc
+eptronTraining.pdf> <445> <./perceptronTraining.pdf> <446> <./perceptronTrainin
+g.pdf> <447> <./perceptronTraining.pdf> <448> <./perceptronTraining.pdf> <449> 
+<./perceptronTraining.pdf> <450> <./perceptronTraining.pdf> <451> <./perceptron
+Training.pdf> <452> <./perceptronTraining.pdf> <453> <./perceptronTraining.pdf>
+<454> <./perceptronTraining.pdf> <455> <./perceptronTraining.pdf> <456> <./perc
+eptronTraining.pdf> <457> <./perceptronTraining.pdf> <458> <./perceptronTrainin
+g.pdf> <459> <./perceptronTraining.pdf> <460> <./perceptronTraining.pdf> <461> 
+<./perceptronTraining.pdf> <462> <./perceptronTraining.pdf> <463> <./perceptron
+Training.pdf> <464> <./perceptronTraining.pdf> <465> <./perceptronTraining.pdf>
+<466> <./perceptronTraining.pdf> <467> <./perceptronTraining.pdf> <468> <./perc
+eptronTraining.pdf> <469> <./perceptronTraining.pdf> <470> <./perceptronTrainin
+g.pdf> <471> <./perceptronTraining.pdf> <472> <./perceptronTraining.pdf> <473> 
+<./perceptronTraining.pdf> <474> <./perceptronTraining.pdf> <475> <./perceptron
+Training.pdf> <476> <./perceptronTraining.pdf> <477> <./perceptronTraining.pdf>
+<478> <./perceptronTraining.pdf> <479> <./perceptronTraining.pdf> <480> <./perc
+eptronTraining.pdf> <481> <./perceptronTraining.pdf> <482> <./perceptronTrainin
+g.pdf> <483> <./perceptronTraining.pdf> <484> <./perceptronTraining.pdf> <485> 
+<./perceptronTraining.pdf> <486> <./perceptronTraining.pdf> <487> <./perceptron
+Training.pdf> <488> <./perceptronTraining.pdf> <489> <./perceptronTraining.pdf>
+<490> <./perceptronTraining.pdf> <491> <./perceptronTraining.pdf> <492> <./perc
+eptronTraining.pdf> <493> <./perceptronTraining.pdf> <494> <./perceptronTrainin
+g.pdf> <495> <./perceptronTraining.pdf> <496> <./perceptronTraining.pdf> <497> 
+<./perceptronTraining.pdf> <498> <./perceptronTraining.pdf> <499> <./perceptron
+Training.pdf> <500> <./perceptronTraining.pdf> <501> <./perceptronTraining.pdf>
+<502> <./perceptronTraining.pdf> <503> <./perceptronTraining.pdf> <504> <./perc
+eptronTraining.pdf> <505> <./perceptronTraining.pdf> <506> <./perceptronTrainin
+g.pdf> <507> <./perceptronTraining.pdf> <508> <./perceptronTraining.pdf> <509> 
+<./perceptronTraining.pdf> <510> <./perceptronTraining.pdf> <511> <./perceptron
+Training.pdf> <512> <./perceptronTraining.pdf> <513> <./perceptronTraining.pdf>
+<514> <./perceptronTraining.pdf> <515> <./perceptronTraining.pdf> <516> <./perc
+eptronTraining.pdf> <517> <./perceptronTraining.pdf> <518> <./perceptronTrainin
+g.pdf> <519> <./perceptronTraining.pdf> <520> <./perceptronTraining.pdf> <521> 
+<./perceptronTraining.pdf> <522> <./perceptronTraining.pdf> <523> <./perceptron
+Training.pdf> <524> <./perceptronTraining.pdf> <525> <./perceptronTraining.pdf>
+<526> <./perceptronTraining.pdf> <527> <./perceptronTraining.pdf> <528> <./perc
+eptronTraining.pdf> <529> <./perceptronTraining.pdf> <530> <./perceptronTrainin
+g.pdf> <531> <./perceptronTraining.pdf> <532> <./perceptronTraining.pdf> <533> 
+<./perceptronTraining.pdf> <534> <./perceptronTraining.pdf> <535> <./perceptron
+Training.pdf> <536> <./perceptronTraining.pdf> <537> <./perceptronTraining.pdf>
+<538> <./perceptronTraining.pdf> <539> <./perceptronTraining.pdf> <540> <./perc
+eptronTraining.pdf> <541> <./perceptronTraining.pdf> <542> <./perceptronTrainin
+g.pdf> <543> <./perceptronTraining.pdf> <544> <./perceptronTraining.pdf> <545> 
+<./perceptronTraining.pdf> <546> <./perceptronTraining.pdf> <547> <./perceptron
+Training.pdf> <548> <./perceptronTraining.pdf> <549> <./perceptronTraining.pdf>
+<550> <./perceptronTraining.pdf> <551> <./perceptronTraining.pdf> <552> <./perc
+eptronTraining.pdf> <553> <./perceptronTraining.pdf> <554> <./perceptronTrainin
+g.pdf> <555> <./perceptronTraining.pdf> <556> <./perceptronTraining.pdf> <557> 
+<./perceptronTraining.pdf> <558> <./perceptronTraining.pdf> <559> <./perceptron
+Training.pdf> <560> <./perceptronTraining.pdf> <561> <./perceptronTraining.pdf>
+<562> <./perceptronTraining.pdf> <563> <./perceptronTraining.pdf> <564> <./perc
+eptronTraining.pdf> <565> <./perceptronTraining.pdf> <566> <./perceptronTrainin
+g.pdf> <567> <./perceptronTraining.pdf> <568> <./perceptronTraining.pdf> <569> 
+<./perceptronTraining.pdf> <570> <./perceptronTraining.pdf> <571> <./perceptron
+Training.pdf> <572> <./perceptronTraining.pdf> <573> <./perceptronTraining.pdf>
+<574> <./perceptronTraining.pdf> <575> <./perceptronTraining.pdf> <576> <./perc
+eptronTraining.pdf> <577> <./perceptronTraining.pdf> <578> <./perceptronTrainin
+g.pdf> <579> <./perceptronTraining.pdf> <580> <./perceptronTraining.pdf> <581> 
+<./perceptronTraining.pdf> <582> <./perceptronTraining.pdf> <583> <./perceptron
+Training.pdf> <584> <./perceptronTraining.pdf> <585> <./perceptronTraining.pdf>
+<586> <./perceptronTraining.pdf> <587> <./perceptronTraining.pdf> <588> <./perc
+eptronTraining.pdf> <589> <./perceptronTraining.pdf> <590> <./perceptronTrainin
+g.pdf> <591> <./perceptronTraining.pdf> <592> <./perceptronTraining.pdf> <593> 
+<./perceptronTraining.pdf> <594> <./perceptronTraining.pdf> <595> <./perceptron
+Training.pdf> <596> <./perceptronTraining.pdf> <597> <./perceptronTraining.pdf>
+<598> <./perceptronTraining.pdf> <599> <./perceptronTraining.pdf> <600> <./perc
+eptronTraining.pdf> <601> <./perceptronTraining.pdf> <602> <./perceptronTrainin
+g.pdf> <603> <./perceptronTraining.pdf> <604> <./perceptronTraining.pdf> <605> 
+<./perceptronTraining.pdf> <606> <./perceptronTraining.pdf> <607> <./perceptron
+Training.pdf> <608> <./perceptronTraining.pdf> <609> <./perceptronTraining.pdf>
+<610> <./perceptronTraining.pdf> <611> <./perceptronTraining.pdf> <612> <./perc
+eptronTraining.pdf> <613> <./perceptronTraining.pdf> <614> <./perceptronTrainin
+g.pdf> <615> <./perceptronTraining.pdf> <616> <./perceptronTraining.pdf> <617> 
+<./perceptronTraining.pdf> <618> <./perceptronTraining.pdf> <619> <./perceptron
+Training.pdf> <620> <./perceptronTraining.pdf> <621> <./perceptronTraining.pdf>
+<622> <./perceptronTraining.pdf> <623> <./perceptronTraining.pdf> <624> <./perc
+eptronTraining.pdf> <625> <./perceptronTraining.pdf> <626> <./perceptronTrainin
+g.pdf> <627> <./perceptronTraining.pdf> <628> <./perceptronTraining.pdf> <629> 
+<./perceptronTraining.pdf> <630> <./perceptronTraining.pdf> <631> <./perceptron
+Training.pdf> <632> <./perceptronTraining.pdf> <633> <./perceptronTraining.pdf>
+<634> <./perceptronTraining.pdf> <635> <./perceptronTraining.pdf> <636> <./perc
+eptronTraining.pdf> <637> <./perceptronTraining.pdf> <638> <./perceptronTrainin
+g.pdf> <639> <./perceptronTraining.pdf> <640> <./perceptronTraining.pdf> <641> 
+<./perceptronTraining.pdf> <642> <./perceptronTraining.pdf> <643> <./perceptron
+Training.pdf> <644> <./perceptronTraining.pdf> <645> <./perceptronTraining.pdf>
+<646> <./perceptronTraining.pdf> <647> <./perceptronTraining.pdf> <648> <./perc
+eptronTraining.pdf> <649> <./perceptronTraining.pdf> <650> <./perceptronTrainin
+g.pdf> <651> <./perceptronTraining.pdf> <652> <./perceptronTraining.pdf> <653> 
+<./perceptronTraining.pdf> <654> <./perceptronTraining.pdf> <655> <./perceptron
+Training.pdf> <656> <./perceptronTraining.pdf> <657> <./perceptronTraining.pdf>
+<658> <./perceptronTraining.pdf> <659> <./perceptronTraining.pdf> <660> <./perc
+eptronTraining.pdf> <661> <./perceptronTraining.pdf> <662> <./perceptronTrainin
+g.pdf> <663> <./perceptronTraining.pdf> <664> <./perceptronTraining.pdf> <665> 
+<./perceptronTraining.pdf> <666> <./perceptronTraining.pdf> <667> <./perceptron
+Training.pdf> <668> <./perceptronTraining.pdf> <669> <./perceptronTraining.pdf>
+<670> <./perceptronTraining.pdf> <671> <./perceptronTraining.pdf> <672> <./perc
+eptronTraining.pdf> <673> <./perceptronTraining.pdf> <674> <./perceptronTrainin
+g.pdf> <675> <./perceptronTraining.pdf> <676> <./perceptronTraining.pdf> <677> 
+<./perceptronTraining.pdf> <678> <./perceptronTraining.pdf> <679> <./perceptron
+Training.pdf> <680> <./perceptronTraining.pdf> <681> <./perceptronTraining.pdf>
+<682> <./perceptronTraining.pdf> <683> <./perceptronTraining.pdf> <684> <./perc
+eptronTraining.pdf> <685> <./perceptronTraining.pdf> <686> <./perceptronTrainin
+g.pdf> <687> <./perceptronTraining.pdf> <688> <./perceptronTraining.pdf> <689> 
+<./perceptronTraining.pdf> <690> <./perceptronTraining.pdf> <691> <./perceptron
+Training.pdf> <692> <./perceptronTraining.pdf> <693> <./perceptronTraining.pdf>
+<694> <./perceptronTraining.pdf> <695> <./perceptronTraining.pdf> <696> <./perc
+eptronTraining.pdf> <697> <./perceptronTraining.pdf> <698> <./perceptronTrainin
+g.pdf> <699> <./perceptronTraining.pdf> <700> <./perceptronTraining.pdf> <701> 
+<./perceptronTraining.pdf> <702> <./perceptronTraining.pdf> <703> <./perceptron
+Training.pdf> <704> <./perceptronTraining.pdf> <705> <./perceptronTraining.pdf>
+<706> <./perceptronTraining.pdf> <707> <./perceptronTraining.pdf> <708> <./perc
+eptronTraining.pdf> <709> <./perceptronTraining.pdf> <710> <./perceptronTrainin
+g.pdf> <711> <./perceptronTraining.pdf> <712> <./perceptronTraining.pdf> <713> 
+<./perceptronTraining.pdf> <714> <./perceptronTraining.pdf> <715> <./perceptron
+Training.pdf> <716> <./perceptronTraining.pdf> <717> <./perceptronTraining.pdf>
+<718> <./perceptronTraining.pdf> <719> <./perceptronTraining.pdf> <720> <./perc
+eptronTraining.pdf> <721> <./perceptronTraining.pdf> <722> <./perceptronTrainin
+g.pdf> <723> <./perceptronTraining.pdf> <724> <./perceptronTraining.pdf> <725> 
+<./perceptronTraining.pdf> <726> <./perceptronTraining.pdf> <727> <./perceptron
+Training.pdf> <728> <./perceptronTraining.pdf> <729> <./perceptronTraining.pdf>
+<730> <./perceptronTraining.pdf> <731> <./perceptronTraining.pdf> <732> <./perc
+eptronTraining.pdf> <733> <./perceptronTraining.pdf> <734> <./perceptronTrainin
+g.pdf> <735> <./perceptronTraining.pdf> <736> <./perceptronTraining.pdf> <737> 
+<./perceptronTraining.pdf> <738> <./perceptronTraining.pdf> <739> <./perceptron
+Training.pdf> <740> <./perceptronTraining.pdf> <741> <./perceptronTraining.pdf>
+<742> <./perceptronTraining.pdf> <743> <./perceptronTraining.pdf> <744> <./perc
+eptronTraining.pdf> <745> <./perceptronTraining.pdf> <746> <./perceptronTrainin
+g.pdf> <747> <./perceptronTraining.pdf> <748> <./perceptronTraining.pdf> <749> 
+<./perceptronTraining.pdf> <750> <./perceptronTraining.pdf> <751> <./perceptron
+Training.pdf> <752> <./perceptronTraining.pdf> <753> <./perceptronTraining.pdf>
+<754> <./perceptronTraining.pdf> <755> <./perceptronTraining.pdf> <756> <./perc
+eptronTraining.pdf> <757> <./perceptronTraining.pdf> <758> <./perceptronTrainin
+g.pdf> <759> <./perceptronTraining.pdf> <760> <./perceptronTraining.pdf> <761> 
+<./perceptronTraining.pdf> <762> <./perceptronTraining.pdf> <763> <./perceptron
+Training.pdf> <764> <./perceptronTraining.pdf> <765> <./perceptronTraining.pdf>
+<766> <./perceptronTraining.pdf> <767> <./perceptronTraining.pdf> <768> <./perc
+eptronTraining.pdf> <769> <./perceptronTraining.pdf> <770> <./perceptronTrainin
+g.pdf> <771> <./perceptronTraining.pdf> <772> <./perceptronTraining.pdf> <773> 
+<./perceptronTraining.pdf> <774> <./perceptronTraining.pdf> <775> <./perceptron
+Training.pdf> <776> <./perceptronTraining.pdf> <777> <./perceptronTraining.pdf>
+<778> <./perceptronTraining.pdf> <779> <./perceptronTraining.pdf> <780> <./perc
+eptronTraining.pdf> <781> <./perceptronTraining.pdf> <782> <./perceptronTrainin
+g.pdf> <783> <./perceptronTraining.pdf> <784> <./perceptronTraining.pdf> <785> 
+<./perceptronTraining.pdf> <786> <./perceptronTraining.pdf> <787> <./perceptron
+Training.pdf> <788> <./perceptronTraining.pdf> <789> <./perceptronTraining.pdf>
+<790> <./perceptronTraining.pdf> <791> <./perceptronTraining.pdf> <792> <./perc
+eptronTraining.pdf> <793> <./perceptronTraining.pdf> <794> <./perceptronTrainin
+g.pdf> <795> <./perceptronTraining.pdf> <796> <./perceptronTraining.pdf> <797> 
+<./perceptronTraining.pdf> <798> <./perceptronTraining.pdf> <799> <./perceptron
+Training.pdf> <800> <./perceptronTraining.pdf> <801> <./perceptronTraining.pdf>
+<802> <./perceptronTraining.pdf> <803> <./perceptronTraining.pdf> <804> <./perc
+eptronTraining.pdf> <805> <./perceptronTraining.pdf> <806> <./perceptronTrainin
+g.pdf> <807> <./perceptronTraining.pdf> <808> <./perceptronTraining.pdf> <809> 
+<./perceptronTraining.pdf> <810> <./perceptronTraining.pdf> <811> <./perceptron
+Training.pdf> <812> <./perceptronTraining.pdf> <813> <./perceptronTraining.pdf>
+<814> <./perceptronTraining.pdf> <815> <./perceptronTraining.pdf> <816> <./perc
+eptronTraining.pdf> <817> <./perceptronTraining.pdf> <818> <./perceptronTrainin
+g.pdf> <819> <./perceptronTraining.pdf> <820> <./perceptronTraining.pdf> <821> 
+<./perceptronTraining.pdf> <822> <./perceptronTraining.pdf> <823> <./perceptron
+Training.pdf> <824> <./perceptronTraining.pdf> <825> <./perceptronTraining.pdf>
+<826> <./perceptronTraining.pdf> <827> <./perceptronTraining.pdf> <828> <./perc
+eptronTraining.pdf> <829> <./perceptronTraining.pdf> <830> <./perceptronTrainin
+g.pdf> <831> <./perceptronTraining.pdf> <832> <./perceptronTraining.pdf> <833> 
+<./perceptronTraining.pdf> <834> <./perceptronTraining.pdf> <835> <./perceptron
+Training.pdf> <836> <./perceptronTraining.pdf> <837> <./perceptronTraining.pdf>
+<838> <./perceptronTraining.pdf> <839> <./perceptronTraining.pdf> <840> <./perc
+eptronTraining.pdf> <841> <./perceptronTraining.pdf> <842> <./perceptronTrainin
+g.pdf> <843> <./perceptronTraining.pdf> <844> <./perceptronTraining.pdf> <845> 
+<./perceptronTraining.pdf> <846> <./perceptronTraining.pdf> <847> <./perceptron
+Training.pdf> <848> <./perceptronTraining.pdf> <849> <./perceptronTraining.pdf>
+<850> <./perceptronTraining.pdf> <851> <./perceptronTraining.pdf> <852> <./perc
+eptronTraining.pdf> <853> <./perceptronTraining.pdf> <854> <./perceptronTrainin
+g.pdf> <855> <./perceptronTraining.pdf> <856> <./perceptronTraining.pdf> <857> 
+<./perceptronTraining.pdf> <858> <./perceptronTraining.pdf> <859> <./perceptron
+Training.pdf> <860> <./perceptronTraining.pdf> <861> <./perceptronTraining.pdf>
+<862> <./perceptronTraining.pdf> <863> <./perceptronTraining.pdf> <864> <./perc
+eptronTraining.pdf> <865> <./perceptronTraining.pdf> <866> <./perceptronTrainin
+g.pdf> <867> <./perceptronTraining.pdf> <868> <./perceptronTraining.pdf> <869> 
+<./perceptronTraining.pdf> <870> <./perceptronTraining.pdf> <871> <./perceptron
+Training.pdf> <872> <./perceptronTraining.pdf> <873> <./perceptronTraining.pdf>
+<874> <./perceptronTraining.pdf> <875> <./perceptronTraining.pdf> <876> <./perc
+eptronTraining.pdf> <877> <./perceptronTraining.pdf> <878> <./perceptronTrainin
+g.pdf> <879> <./perceptronTraining.pdf> <880> <./perceptronTraining.pdf> <881> 
+<./perceptronTraining.pdf> <882> <./perceptronTraining.pdf> <883> <./perceptron
+Training.pdf> <884> <./perceptronTraining.pdf> <885> <./perceptronTraining.pdf>
+<886> <./perceptronTraining.pdf> <887> <./perceptronTraining.pdf> <888> <./perc
+eptronTraining.pdf> <889> <./perceptronTraining.pdf> <890> <./perceptronTrainin
+g.pdf> <891> <./perceptronTraining.pdf> <892> <./perceptronTraining.pdf> <893> 
+<./perceptronTraining.pdf> <894> <./perceptronTraining.pdf> <895> <./perceptron
+Training.pdf> <896> <./perceptronTraining.pdf> <897> <./perceptronTraining.pdf>
+<898> <./perceptronTraining.pdf> <899> <./perceptronTraining.pdf> <900> <./perc
+eptronTraining.pdf> <901> <./perceptronTraining.pdf> <902> <./perceptronTrainin
+g.pdf> <903> <./perceptronTraining.pdf> <904> <./perceptronTraining.pdf> <905> 
+<./perceptronTraining.pdf> <906> <./perceptronTraining.pdf> <907> <./perceptron
+Training.pdf> <908> <./perceptronTraining.pdf> <909> <./perceptronTraining.pdf>
+<910> <./perceptronTraining.pdf> <911> <./perceptronTraining.pdf> <912> <./perc
+eptronTraining.pdf> <913> <./perceptronTraining.pdf> <914> <./perceptronTrainin
+g.pdf> <915> <./perceptronTraining.pdf> <916> <./perceptronTraining.pdf> <917> 
+<./perceptronTraining.pdf> <918> <./perceptronTraining.pdf> <919> <./perceptron
+Training.pdf> <920> <./perceptronTraining.pdf> <921> <./perceptronTraining.pdf>
+<922> <./perceptronTraining.pdf> <923> <./perceptronTraining.pdf> <924> <./perc
+eptronTraining.pdf> <925> <./perceptronTraining.pdf> <926> <./perceptronTrainin
+g.pdf> <927> <./perceptronTraining.pdf> <928> <./perceptronTraining.pdf> <929> 
+<./perceptronTraining.pdf> <930> <./perceptronTraining.pdf> <931> <./perceptron
+Training.pdf> <932> <./perceptronTraining.pdf> <933> <./perceptronTraining.pdf>
+<934> <./perceptronTraining.pdf> <935> <./perceptronTraining.pdf> <936> <./perc
+eptronTraining.pdf> <937> <./perceptronTraining.pdf> <938> <./perceptronTrainin
+g.pdf> <939> <./perceptronTraining.pdf> <940> <./perceptronTraining.pdf> <941> 
+<./perceptronTraining.pdf> <942> <./perceptronTraining.pdf> <943> <./perceptron
+Training.pdf> <944> <./perceptronTraining.pdf> <945> <./perceptronTraining.pdf>
+<946> <./perceptronTraining.pdf> <947> <./perceptronTraining.pdf> <948> <./perc
+eptronTraining.pdf> <949> <./perceptronTraining.pdf> <950> <./perceptronTrainin
+g.pdf> <951> <./perceptronTraining.pdf> <952> <./perceptronTraining.pdf> <953> 
+<./perceptronTraining.pdf> <954> <./perceptronTraining.pdf> <955> <./perceptron
+Training.pdf> <956> <./perceptronTraining.pdf> <957> <./perceptronTraining.pdf>
+<958> <./perceptronTraining.pdf> <959> <./perceptronTraining.pdf> <960> <./perc
+eptronTraining.pdf> <961> <./perceptronTraining.pdf> <962> <./perceptronTrainin
+g.pdf> <963> <./perceptronTraining.pdf> <964> <./perceptronTraining.pdf> <965> 
+<./perceptronTraining.pdf> <966> <./perceptronTraining.pdf> <967> <./perceptron
+Training.pdf> <968> <./perceptronTraining.pdf> <969> <./perceptronTraining.pdf>
+<970> <./perceptronTraining.pdf> <971> <./perceptronTraining.pdf> <972> <./perc
+eptronTraining.pdf> <973> <./perceptronTraining.pdf> <974> <./perceptronTrainin
+g.pdf> <975> <./perceptronTraining.pdf> <976> <./perceptronTraining.pdf> <977> 
+<./perceptronTraining.pdf> <978> <./perceptronTraining.pdf> <979> <./perceptron
+Training.pdf> <980> <./perceptronTraining.pdf> <981> <./perceptronTraining.pdf>
+<982> <./perceptronTraining.pdf> <983> <./perceptronTraining.pdf> <984> <./perc
+eptronTraining.pdf> <985> <./perceptronTraining.pdf> <986> <./perceptronTrainin
+g.pdf> <987> <./perceptronTraining.pdf> <988> <./perceptronTraining.pdf> <989> 
+<./perceptronTraining.pdf> <990> <./perceptronTraining.pdf> <991> <./perceptron
+Training.pdf> <992> <./perceptronTraining.pdf> <993> <./perceptronTraining.pdf>
+<994> <./perceptronTraining.pdf> <995> <./perceptronTraining.pdf> <996> <./perc
+eptronTraining.pdf> <997> <./perceptronTraining.pdf> <998> <./perceptronTrainin
+g.pdf> <999> <./perceptronTraining.pdf> <1000> <./perceptronTraining.pdf>
+<1001> <./perceptronTraining.pdf> <1002> <./perceptronTraining.pdf> <1003> <./p
+erceptronTraining.pdf> <1004> <./perceptronTraining.pdf> <1005> <./perceptronTr
+aining.pdf> <1006> <./perceptronTraining.pdf> <1007> <./perceptronTraining.pdf>
+<1008> <./perceptronTraining.pdf> <1009> <./perceptronTraining.pdf> <1010> <./p
+erceptronTraining.pdf> <1011> <./perceptronTraining.pdf> <1012> <./perceptronTr
+aining.pdf> <1013> <./perceptronTraining.pdf> <1014> <./perceptronTraining.pdf>
+<1015> <./perceptronTraining.pdf> <1016> <./perceptronTraining.pdf> <1017> <./p
+erceptronTraining.pdf> <1018> <./perceptronTraining.pdf> <1019> <./perceptronTr
+aining.pdf> <1020> <./perceptronTraining.pdf> <1021> <./perceptronTraining.pdf>
+<1022> <./perceptronTraining.pdf> <1023> <./perceptronTraining.pdf> <1024> <./p
+erceptronTraining.pdf> <1025> <./perceptronTraining.pdf> <1026> <./perceptronTr
+aining.pdf> <1027> <./perceptronTraining.pdf> <1028> <./perceptronTraining.pdf>
+<1029> <./perceptronTraining.pdf> <1030> <./perceptronTraining.pdf> <1031> <./p
+erceptronTraining.pdf> <1032> <./perceptronTraining.pdf> <1033> <./perceptronTr
+aining.pdf> <1034> <./perceptronTraining.pdf> <1035> <./perceptronTraining.pdf>
+<1036> <./perceptronTraining.pdf> <1037> <./perceptronTraining.pdf> <1038> <./p
+erceptronTraining.pdf> <1039> <./perceptronTraining.pdf> <1040> <./perceptronTr
+aining.pdf> <1041> <./perceptronTraining.pdf> <1042> <./perceptronTraining.pdf>
+<1043> <./perceptronTraining.pdf> <1044> <./perceptronTraining.pdf> <1045> <./p
+erceptronTraining.pdf> <1046> <./perceptronTraining.pdf> <1047> <./perceptronTr
+aining.pdf> <1048> <./perceptronTraining.pdf> <1049> <./perceptronTraining.pdf>
+<1050> <./perceptronTraining.pdf> <1051> <./perceptronTraining.pdf> <1052> <./p
+erceptronTraining.pdf> <1053> <./perceptronTraining.pdf> <1054> <./perceptronTr
+aining.pdf> <1055> <./perceptronTraining.pdf> <1056> <./perceptronTraining.pdf>
+<1057> <./perceptronTraining.pdf> <1058> <./perceptronTraining.pdf> <1059> <./p
+erceptronTraining.pdf> <1060> <./perceptronTraining.pdf> <1061> <./perceptronTr
+aining.pdf> <1062> <./perceptronTraining.pdf> <1063> <./perceptronTraining.pdf>
+<1064> <./perceptronTraining.pdf> <1065> <./perceptronTraining.pdf> <1066> <./p
+erceptronTraining.pdf> <1067> <./perceptronTraining.pdf> <1068> <./perceptronTr
+aining.pdf> <1069> <./perceptronTraining.pdf> <1070> <./perceptronTraining.pdf>
+<1071> <./perceptronTraining.pdf> <1072> <./perceptronTraining.pdf> <1073> <./p
+erceptronTraining.pdf> <1074> <./perceptronTraining.pdf> <1075> <./perceptronTr
+aining.pdf> <1076> <./perceptronTraining.pdf> <1077> <./perceptronTraining.pdf>
+<1078> <./perceptronTraining.pdf> <1079> <./perceptronTraining.pdf> <1080> <./p
+erceptronTraining.pdf> <1081> <./perceptronTraining.pdf> <1082> <./perceptronTr
+aining.pdf> <1083> <./perceptronTraining.pdf> <1084> <./perceptronTraining.pdf>
+<1085> <./perceptronTraining.pdf> <1086> <./perceptronTraining.pdf> <1087> <./p
+erceptronTraining.pdf> <1088> <./perceptronTraining.pdf> <1089> <./perceptronTr
+aining.pdf> <1090> <./perceptronTraining.pdf> <1091> <./perceptronTraining.pdf>
+<1092> <./perceptronTraining.pdf> <1093> <./perceptronTraining.pdf> <1094> <./p
+erceptronTraining.pdf> <1095> <./perceptronTraining.pdf> <1096> <./perceptronTr
+aining.pdf> <1097> <./perceptronTraining.pdf> <1098> <./perceptronTraining.pdf>
+<1099> <./perceptronTraining.pdf> <1100> <./perceptronTraining.pdf> <1101> <./p
+erceptronTraining.pdf> <1102> <./perceptronTraining.pdf> <1103> <./perceptronTr
+aining.pdf> <1104> <./perceptronTraining.pdf> <1105> <./perceptronTraining.pdf>
+<1106> <./perceptronTraining.pdf> <1107> <./perceptronTraining.pdf> <1108> <./p
+erceptronTraining.pdf> <1109> <./perceptronTraining.pdf> <1110> <./perceptronTr
+aining.pdf> <1111> <./perceptronTraining.pdf> <1112> <./perceptronTraining.pdf>
+<1113> <./perceptronTraining.pdf> <1114> <./perceptronTraining.pdf> <1115> <./p
+erceptronTraining.pdf> <1116> <./perceptronTraining.pdf> <1117> <./perceptronTr
+aining.pdf> <1118> <./perceptronTraining.pdf> <1119> <./perceptronTraining.pdf>
+<1120> <./perceptronTraining.pdf> <1121> <./perceptronTraining.pdf> <1122> <./p
+erceptronTraining.pdf> <1123> <./perceptronTraining.pdf> <1124> <./perceptronTr
+aining.pdf> <1125> <./perceptronTraining.pdf> <1126> <./perceptronTraining.pdf>
+<1127> <./perceptronTraining.pdf> <1128> <./perceptronTraining.pdf> <1129> <./p
+erceptronTraining.pdf> <1130> <./perceptronTraining.pdf> <1131> <./perceptronTr
+aining.pdf> <1132> <./perceptronTraining.pdf> <1133> <./perceptronTraining.pdf>
+<1134> <./perceptronTraining.pdf> <1135> <./perceptronTraining.pdf> <1136> <./p
+erceptronTraining.pdf> <1137> <./perceptronTraining.pdf> <1138> <./perceptronTr
+aining.pdf> <1139> <./perceptronTraining.pdf> <1140> <./perceptronTraining.pdf>
+<1141> <./perceptronTraining.pdf> <1142> <./perceptronTraining.pdf> <1143> <./p
+erceptronTraining.pdf> <1144> <./perceptronTraining.pdf> <1145> <./perceptronTr
+aining.pdf> <1146> <./perceptronTraining.pdf> <1147> <./perceptronTraining.pdf>
+<1148> <./perceptronTraining.pdf> <1149> <./perceptronTraining.pdf> <1150> <./p
+erceptronTraining.pdf> <1151> <./perceptronTraining.pdf> <1152> <./perceptronTr
+aining.pdf> <1153> <./perceptronTraining.pdf> <1154> <./perceptronTraining.pdf>
+<1155> <./perceptronTraining.pdf> <1156> <./perceptronTraining.pdf> <1157> <./p
+erceptronTraining.pdf> <1158> <./perceptronTraining.pdf> <1159> <./perceptronTr
+aining.pdf> <1160> <./perceptronTraining.pdf> <1161> <./perceptronTraining.pdf>
+<1162> <./perceptronTraining.pdf> <1163> <./perceptronTraining.pdf> <1164> <./p
+erceptronTraining.pdf> <1165> <./perceptronTraining.pdf> <1166> <./perceptronTr
+aining.pdf> <1167> <./perceptronTraining.pdf> <1168> <./perceptronTraining.pdf>
+<1169> <./perceptronTraining.pdf> <1170> <./perceptronTraining.pdf> <1171> <./p
+erceptronTraining.pdf> <1172> <./perceptronTraining.pdf> <1173> <./perceptronTr
+aining.pdf> <1174> <./perceptronTraining.pdf> <1175> <./perceptronTraining.pdf>
+<1176> <./perceptronTraining.pdf> <1177> <./perceptronTraining.pdf> <1178> <./p
+erceptronTraining.pdf> <1179> <./perceptronTraining.pdf> <1180> <./perceptronTr
+aining.pdf> <1181> <./perceptronTraining.pdf> <1182> <./perceptronTraining.pdf>
+<1183> <./perceptronTraining.pdf> <1184> <./perceptronTraining.pdf> <1185> <./p
+erceptronTraining.pdf> <1186> <./perceptronTraining.pdf> <1187> <./perceptronTr
+aining.pdf> <1188> <./perceptronTraining.pdf> <1189> <./perceptronTraining.pdf>
+<1190> <./perceptronTraining.pdf> <1191> <./perceptronTraining.pdf> <1192> <./p
+erceptronTraining.pdf> <1193> <./perceptronTraining.pdf> <1194> <./perceptronTr
+aining.pdf> <1195> <./perceptronTraining.pdf> <1196> <./perceptronTraining.pdf>
+<1197> <./perceptronTraining.pdf> <1198> <./perceptronTraining.pdf> <1199> <./p
+erceptronTraining.pdf> <1200> <./perceptronTraining.pdf> <1201> <./perceptronTr
+aining.pdf> <1202> <./perceptronTraining.pdf> <1203> <./perceptronTraining.pdf>
+<1204> <./perceptronTraining.pdf> <1205> <./perceptronTraining.pdf> <1206> <./p
+erceptronTraining.pdf> <1207> <./perceptronTraining.pdf> <1208> <./perceptronTr
+aining.pdf> <1209> <./perceptronTraining.pdf> <1210> <./perceptronTraining.pdf>
+<1211> <./perceptronTraining.pdf> <1212> <./perceptronTraining.pdf> <1213> <./p
+erceptronTraining.pdf> <1214> <./perceptronTraining.pdf> <1215> <./perceptronTr
+aining.pdf> <1216> <./perceptronTraining.pdf> <1217> <./perceptronTraining.pdf>
+<1218> <./perceptronTraining.pdf> <1219> <./perceptronTraining.pdf> <1220> <./p
+erceptronTraining.pdf> <1221> <./perceptronTraining.pdf> <1222> <./perceptronTr
+aining.pdf> <1223> <./perceptronTraining.pdf> <1224> <./perceptronTraining.pdf>
+<1225> <./perceptronTraining.pdf> <1226> <./perceptronTraining.pdf> <1227> <./p
+erceptronTraining.pdf> <1228> <./perceptronTraining.pdf> <1229> <./perceptronTr
+aining.pdf> <1230> <./perceptronTraining.pdf> <1231> <./perceptronTraining.pdf>
+<1232> <./perceptronTraining.pdf> <1233> <./perceptronTraining.pdf> <1234> <./p
+erceptronTraining.pdf> <1235> <./perceptronTraining.pdf> <1236> <./perceptronTr
+aining.pdf> <1237> <./perceptronTraining.pdf> <1238> <./perceptronTraining.pdf>
+<1239> <./perceptronTraining.pdf> <1240> <./perceptronTraining.pdf> <1241> <./p
+erceptronTraining.pdf> <1242> <./perceptronTraining.pdf> <1243> <./perceptronTr
+aining.pdf> <1244> <./perceptronTraining.pdf> <1245> <./perceptronTraining.pdf>
+<1246> <./perceptronTraining.pdf> <1247> <./perceptronTraining.pdf> <1248> <./p
+erceptronTraining.pdf> <1249> <./perceptronTraining.pdf> <1250> <./perceptronTr
+aining.pdf> <1251> <./perceptronTraining.pdf> <1252> <./perceptronTraining.pdf>
+<1253> <./perceptronTraining.pdf> <1254> <./perceptronTraining.pdf> <1255> <./p
+erceptronTraining.pdf> <1256> <./perceptronTraining.pdf> <1257> <./perceptronTr
+aining.pdf> <1258> <./perceptronTraining.pdf> <1259> <./perceptronTraining.pdf>
+<1260> <./perceptronTraining.pdf> <1261> <./perceptronTraining.pdf> <1262> <./p
+erceptronTraining.pdf> <1263> <./perceptronTraining.pdf> <1264> <./perceptronTr
+aining.pdf> <1265> <./perceptronTraining.pdf> <1266> <./perceptronTraining.pdf>
+<1267> <./perceptronTraining.pdf> <1268> <./perceptronTraining.pdf> <1269> <./p
+erceptronTraining.pdf> <1270> <./perceptronTraining.pdf> <1271> <./perceptronTr
+aining.pdf> <1272> <./perceptronTraining.pdf> <1273> <./perceptronTraining.pdf>
+<1274> <./perceptronTraining.pdf> <1275> <./perceptronTraining.pdf> <1276> <./p
+erceptronTraining.pdf> <1277> <./perceptronTraining.pdf> <1278> <./perceptronTr
+aining.pdf> <1279> <./perceptronTraining.pdf> <1280> <./perceptronTraining.pdf>
+<1281> <./perceptronTraining.pdf> <1282> <./perceptronTraining.pdf> <1283> <./p
+erceptronTraining.pdf> <1284> <./perceptronTraining.pdf> <1285> <./perceptronTr
+aining.pdf> <1286> <./perceptronTraining.pdf> <1287> <./perceptronTraining.pdf>
+<1288> <./perceptronTraining.pdf> <1289> <./perceptronTraining.pdf> <1290> <./p
+erceptronTraining.pdf> <1291> <./perceptronTraining.pdf> <1292> <./perceptronTr
+aining.pdf> <1293> <./perceptronTraining.pdf> <1294> <./perceptronTraining.pdf>
+<1295> <./perceptronTraining.pdf> <1296> <./perceptronTraining.pdf> <1297> <./p
+erceptronTraining.pdf> <1298> <./perceptronTraining.pdf> <1299> <./perceptronTr
+aining.pdf> <1300> <./perceptronTraining.pdf> <1301> <./perceptronTraining.pdf>
+<1302> <./perceptronTraining.pdf> <1303> <./perceptronTraining.pdf> <1304> <./p
+erceptronTraining.pdf> <1305> <./perceptronTraining.pdf> <1306> <./perceptronTr
+aining.pdf> <1307> <./perceptronTraining.pdf> <1308> <./perceptronTraining.pdf>
+<1309> <./perceptronTraining.pdf> <1310> <./perceptronTraining.pdf> <1311> <./p
+erceptronTraining.pdf> <1312> <./perceptronTraining.pdf> <1313> <./perceptronTr
+aining.pdf> <1314> <./perceptronTraining.pdf> <1315> <./perceptronTraining.pdf>
+<1316> <./perceptronTraining.pdf> <1317> <./perceptronTraining.pdf> <1318> <./p
+erceptronTraining.pdf> <1319> <./perceptronTraining.pdf> <1320> <./perceptronTr
+aining.pdf> <1321> <./perceptronTraining.pdf> <1322> <./perceptronTraining.pdf>
+<1323> <./perceptronTraining.pdf> <1324> <./perceptronTraining.pdf> <1325> <./p
+erceptronTraining.pdf> <1326> <./perceptronTraining.pdf> <1327> <./perceptronTr
+aining.pdf> <1328> <./perceptronTraining.pdf> <1329> <./perceptronTraining.pdf>
+<1330> <./perceptronTraining.pdf> <1331> <./perceptronTraining.pdf> <1332> <./p
+erceptronTraining.pdf> <1333> <./perceptronTraining.pdf> <1334> <./perceptronTr
+aining.pdf> <1335> <./perceptronTraining.pdf> <1336> <./perceptronTraining.pdf>
+<1337> <./perceptronTraining.pdf> <1338> <./perceptronTraining.pdf> <1339> <./p
+erceptronTraining.pdf> <1340> <./perceptronTraining.pdf> <1341> <./perceptronTr
+aining.pdf> <1342> <./perceptronTraining.pdf> <1343> <./perceptronTraining.pdf>
+<1344> <./perceptronTraining.pdf> <1345> <./perceptronTraining.pdf> <1346> <./p
+erceptronTraining.pdf> <1347> <./perceptronTraining.pdf> <1348>
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
+
+ []
+
+Package color Info: Redefining color shadecolor on input line 77.
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 79.
+LaTeX Font Info:    Try loading font information for OMS+cmtt on input line 85.
+
+(/Library/Frameworks/R.framework/Resources/share/texmf/tex/latex/omscmtt.fd
+File: omscmtt.fd 
+)
+LaTeX Font Info:    Font shape `OMS/cmtt/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 85.
+
+Overfull \hbox (505.03064pt too wide) in paragraph at lines 112--112
+[][]\OT1/cmtt/m/it/10 ##training algorithm samples randomly from misclassified 
+points and adds or subtracts the point to the weight vector according to the tr
+ue value of the point in the simulated training set.[][] 
+ []
+
+[1
+
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \vbox (badness 10000) detected at line 172
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 172
+ []
+
+[2]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 176.
+Package atenddvi Info: Last page = 3.
+ [3]
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 176.
+ (./Percept.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 176.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 176.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 176.
+ ) 
+Here is how much of TeX's memory you used:
+ 11244 strings out of 493089
+ 185796 string characters out of 6134842
+ 262958 words of memory out of 5000000
+ 14667 multiletter control sequences out of 15000+600000
+ 7011 words of font info for 26 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 48i,6n,61p,436b,279s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmitt10.pf
+b></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></
+usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></us
+r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
+/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on Percept.pdf (3 pages, 3656258 bytes).
+PDF statistics:
+ 6818 PDF objects out of 7423 (max. 8388607)
+ 2732 compressed objects within 28 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 22934 words of extra memory for PDF output out of 24883 (max. 10000000)
+

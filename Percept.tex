@@ -1,0 +1,176 @@
+
+\documentclass[a4paper,8pt]{article}\usepackage[]{graphicx}\usepackage[]{color}
+%% maxwidth is the original width if it is less than linewidth
+%% otherwise use linewidth (to make sure the graphics do not exceed the margin)
+\makeatletter
+\def\maxwidth{ %
+  \ifdim\Gin@nat@width>\linewidth
+    \linewidth
+  \else
+    \Gin@nat@width
+  \fi
+}
+\makeatother
+
+\definecolor{fgcolor}{rgb}{0.345, 0.345, 0.345}
+\newcommand{\hlnum}[1]{\textcolor[rgb]{0.686,0.059,0.569}{#1}}%
+\newcommand{\hlstr}[1]{\textcolor[rgb]{0.192,0.494,0.8}{#1}}%
+\newcommand{\hlcom}[1]{\textcolor[rgb]{0.678,0.584,0.686}{\textit{#1}}}%
+\newcommand{\hlopt}[1]{\textcolor[rgb]{0,0,0}{#1}}%
+\newcommand{\hlstd}[1]{\textcolor[rgb]{0.345,0.345,0.345}{#1}}%
+\newcommand{\hlkwa}[1]{\textcolor[rgb]{0.161,0.373,0.58}{\textbf{#1}}}%
+\newcommand{\hlkwb}[1]{\textcolor[rgb]{0.69,0.353,0.396}{#1}}%
+\newcommand{\hlkwc}[1]{\textcolor[rgb]{0.333,0.667,0.333}{#1}}%
+\newcommand{\hlkwd}[1]{\textcolor[rgb]{0.737,0.353,0.396}{\textbf{#1}}}%
+
+\usepackage{framed}
+\makeatletter
+\newenvironment{kframe}{%
+ \def\at@end@of@kframe{}%
+ \ifinner\ifhmode%
+  \def\at@end@of@kframe{\end{minipage}}%
+  \begin{minipage}{\columnwidth}%
+ \fi\fi%
+ \def\FrameCommand##1{\hskip\@totalleftmargin \hskip-\fboxsep
+ \colorbox{shadecolor}{##1}\hskip-\fboxsep
+     % There is no \\@totalrightmargin, so:
+     \hskip-\linewidth \hskip-\@totalleftmargin \hskip\columnwidth}%
+ \MakeFramed {\advance\hsize-\width
+   \@totalleftmargin\z@ \linewidth\hsize
+   \@setminipage}}%
+ {\par\unskip\endMakeFramed%
+ \at@end@of@kframe}
+\makeatother
+
+\definecolor{shadecolor}{rgb}{.97, .97, .97}
+\definecolor{messagecolor}{rgb}{0, 0, 0}
+\definecolor{warningcolor}{rgb}{1, 0, 1}
+\definecolor{errorcolor}{rgb}{1, 0, 0}
+\newenvironment{knitrout}{}{} % an empty environment to be redefined in TeX
+
+\usepackage{alltt}
+\usepackage[a4paper,
+            includehead,
+            headheight=0mm,
+            footskip=7mm,
+            left=20mm,
+            right=20mm,
+            bmargin=30mm,
+            tmargin=30mm]{geometry}
+\usepackage{titling}
+\title{Perceptron Learning Algorithm}
+\author{Segev Malool}
+\date{\today}
+\usepackage{animate}
+\setlength{\droptitle}{-6em}
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\begin{document}
+\maketitle
+
+The following code implements a version of the perceptron learning algorithm.
+
+To start the animation, click on it!\\
+
+\animategraphics[width=.7\linewidth]{5}{perceptronTraining}{}{}\\
+
+\begin{knitrout}
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlkwd{library}\hlstd{(ggplot2)}
+\hlkwd{set.seed}\hlstd{(}\hlnum{982}\hlstd{)}
+
+\hlkwd{pdf}\hlstd{(}\hlkwc{file}\hlstd{=}\hlstr{"perceptronTraining.pdf"}\hlstd{)}
+\hlstd{cumsum} \hlkwb{<-} \hlnum{0}
+\hlstd{cumerr} \hlkwb{<-} \hlnum{0}
+\hlkwa{for} \hlstd{(i} \hlkwa{in} \hlnum{1}\hlopt{:}\hlnum{10}\hlstd{) \{}
+\hlstd{n}\hlkwb{=}\hlnum{100} \hlcom{##number of training samples taken}
+
+\hlcom{##Target function:}
+\hlstd{x1} \hlkwb{<-} \hlkwd{runif}\hlstd{(}\hlkwc{n}\hlstd{=}\hlnum{2}\hlstd{,}\hlkwc{min}\hlstd{=}\hlopt{-}\hlnum{1}\hlstd{,}\hlkwc{max}\hlstd{=}\hlnum{1}\hlstd{)}
+\hlstd{x2} \hlkwb{<-} \hlkwd{runif}\hlstd{(}\hlkwc{n}\hlstd{=}\hlnum{2}\hlstd{,}\hlkwc{min}\hlstd{=}\hlopt{-}\hlnum{1}\hlstd{,}\hlkwc{max}\hlstd{=}\hlnum{1}\hlstd{)}
+\hlstd{slope} \hlkwb{<-} \hlstd{(x2[}\hlnum{2}\hlstd{]}\hlopt{-}\hlstd{x1[}\hlnum{2}\hlstd{])}\hlopt{/}\hlstd{(x2[}\hlnum{1}\hlstd{]}\hlopt{-}\hlstd{x1[}\hlnum{1}\hlstd{])}
+\hlstd{intercept} \hlkwb{<-} \hlstd{x1[}\hlnum{2}\hlstd{]}\hlopt{-}\hlstd{slope}\hlopt{*}\hlstd{x1[}\hlnum{1}\hlstd{]}
+
+\hlstd{y} \hlkwb{<-} \hlkwa{function}\hlstd{(}\hlkwc{x}\hlstd{)\{}\hlkwd{sign}\hlstd{(slope}\hlopt{*}\hlstd{x[}\hlnum{1}\hlstd{]}\hlopt{+}\hlstd{intercept} \hlopt{-} \hlstd{x[}\hlnum{2}\hlstd{])\}}
+
+\hlcom{##Simulated dataset}
+\hlstd{data} \hlkwb{<-} \hlkwd{data.frame}\hlstd{(}\hlkwc{x1}\hlstd{=}\hlkwd{runif}\hlstd{(}\hlkwc{n}\hlstd{=n,}\hlkwc{min}\hlstd{=}\hlopt{-}\hlnum{1}\hlstd{,}\hlkwc{max}\hlstd{=}\hlnum{1}\hlstd{),}
+                   \hlkwc{x2}\hlstd{=}\hlkwd{runif}\hlstd{(}\hlkwc{n}\hlstd{=n,}\hlkwc{min}\hlstd{=}\hlopt{-}\hlnum{1}\hlstd{,}\hlkwc{max}\hlstd{=}\hlnum{1}\hlstd{))}
+\hlstd{data}\hlopt{$}\hlstd{cat} \hlkwb{<-} \hlkwd{apply}\hlstd{(data,}\hlnum{1}\hlstd{,y)}
+\hlstd{data}\hlopt{$}\hlstd{x0} \hlkwb{<-} \hlkwd{rep}\hlstd{(}\hlnum{1}\hlstd{,n)}
+\hlstd{data} \hlkwb{<-} \hlstd{data[}\hlkwd{c}\hlstd{(}\hlnum{4}\hlstd{,}\hlnum{1}\hlstd{,}\hlnum{2}\hlstd{,}\hlnum{3}\hlstd{)]}
+
+
+\hlcom{##Weight vector and initial hypotheses initialized to zero}
+\hlstd{w} \hlkwb{<-} \hlkwd{c}\hlstd{(}\hlnum{0}\hlstd{,}\hlnum{0}\hlstd{,}\hlnum{0}\hlstd{)}
+\hlstd{data}\hlopt{$}\hlstd{HypCat} \hlkwb{<-} \hlkwd{rep}\hlstd{(}\hlnum{0}\hlstd{,n)}
+
+\hlcom{##Train the perceptron:}
+\hlstd{miss} \hlkwb{<-} \hlstd{data[data[,}\hlnum{4}\hlstd{]} \hlopt{!=} \hlstd{data[,}\hlnum{5}\hlstd{],]} \hlcom{##misclassified points}
+\hlstd{iteration} \hlkwb{<-} \hlnum{1} \hlcom{##to keep track of iterations}
+
+\hlcom{##training algorithm samples randomly from misclassified points and adds or subtracts the point to the weight vector according to the true value of the point in the simulated training set.}
+\hlkwa{while}\hlstd{(} \hlnum{1} \hlstd{)\{}
+    \hlstd{miss} \hlkwb{<-} \hlstd{data[data[,}\hlnum{4}\hlstd{]} \hlopt{!=} \hlstd{data[,}\hlnum{5}\hlstd{],]}
+    \hlkwa{if} \hlstd{(} \hlkwd{nrow}\hlstd{(miss)} \hlopt{==} \hlnum{0} \hlstd{) \{}\hlkwa{break}\hlstd{\}}
+
+    \hlstd{x} \hlkwb{<-} \hlkwd{as.numeric}\hlstd{(}\hlkwd{rownames}\hlstd{(miss))}
+    \hlstd{s} \hlkwb{<-} \hlkwd{ifelse}\hlstd{(}\hlkwd{nrow}\hlstd{(miss)}\hlopt{==}\hlnum{1}\hlstd{,} \hlkwd{as.numeric}\hlstd{(}\hlkwd{rownames}\hlstd{(miss)),} \hlkwd{sample}\hlstd{(x,} \hlkwc{size}\hlstd{=}\hlnum{1}\hlstd{))}
+
+    \hlkwa{if} \hlstd{( miss[}\hlkwd{as.character}\hlstd{(s),}\hlnum{4}\hlstd{]} \hlopt{==} \hlnum{1} \hlstd{) \{}\hlcom{##condition on true category}
+        \hlstd{w} \hlkwb{<-} \hlstd{w} \hlopt{+} \hlstd{miss[}\hlkwd{as.character}\hlstd{(s),}\hlnum{1}\hlopt{:}\hlnum{3}\hlstd{]} \hlcom{##update weight vector}
+    \hlstd{\}}
+    \hlkwa{if} \hlstd{( miss[}\hlkwd{as.character}\hlstd{(s),}\hlnum{4}\hlstd{]} \hlopt{== -}\hlnum{1} \hlstd{) \{}
+        \hlstd{w} \hlkwb{<-} \hlstd{w} \hlopt{-} \hlstd{miss[}\hlkwd{as.character}\hlstd{(s),}\hlnum{1}\hlopt{:}\hlnum{3}\hlstd{]}
+    \hlstd{\}}
+    \hlkwa{for} \hlstd{( i} \hlkwa{in} \hlnum{1}\hlopt{:}\hlkwd{nrow}\hlstd{(data) ) \{}
+        \hlstd{data[i,}\hlnum{5}\hlstd{]} \hlkwb{<-} \hlkwd{sign}\hlstd{(}\hlkwd{unlist}\hlstd{(w)}\hlopt{%*%}\hlkwd{unlist}\hlstd{(data[i,}\hlnum{1}\hlopt{:}\hlnum{3}\hlstd{]))}
+    \hlstd{\}}
+
+    \hlstd{x} \hlkwb{<-} \hlkwd{ggplot}\hlstd{(data)} \hlopt{+}
+        \hlkwd{geom_abline}\hlstd{(}\hlkwc{slope}\hlstd{=slope,}
+                    \hlkwc{intercept}\hlstd{=intercept,}
+                    \hlkwc{colour}\hlstd{=}\hlstr{"red"}\hlstd{)} \hlopt{+}
+        \hlkwd{geom_abline}\hlstd{(}\hlkwc{slope}\hlstd{=}\hlopt{-}\hlkwd{unlist}\hlstd{(w[}\hlnum{2}\hlstd{])}\hlopt{/}\hlkwd{unlist}\hlstd{(w[}\hlnum{3}\hlstd{]),}
+                    \hlkwc{intercept}\hlstd{=}\hlopt{-}\hlkwd{unlist}\hlstd{(w[}\hlnum{1}\hlstd{])}\hlopt{/}\hlkwd{unlist}\hlstd{(w[}\hlnum{3}\hlstd{]),}
+                    \hlkwc{colour}\hlstd{=}\hlstr{"blue"}\hlstd{)} \hlopt{+}
+        \hlkwd{geom_point}\hlstd{(}\hlkwd{aes}\hlstd{(x1,x2,}\hlkwc{color}\hlstd{=}\hlkwd{factor}\hlstd{(cat)))} \hlopt{+}
+        \hlkwd{labs}\hlstd{(}\hlkwc{title}\hlstd{=}\hlkwd{paste}\hlstd{(}\hlstr{"Iteration: "}\hlstd{,iteration))}
+
+   \hlkwd{print}\hlstd{(x)}
+    \hlstd{iteration} \hlkwb{<-} \hlstd{iteration} \hlopt{+} \hlnum{1}
+\hlstd{\}}
+\hlstd{cumsum} \hlkwb{<-} \hlstd{cumsum} \hlopt{+} \hlstd{iteration}
+
+\hlstd{yhyp} \hlkwb{<-} \hlkwa{function}\hlstd{(}\hlkwc{x}\hlstd{)\{}\hlkwd{sign}\hlstd{(}\hlopt{-}\hlkwd{unlist}\hlstd{(w[}\hlnum{2}\hlstd{])}\hlopt{/}\hlkwd{unlist}\hlstd{(w[}\hlnum{3}\hlstd{])}\hlopt{*}\hlstd{x[}\hlnum{1}\hlstd{]}\hlopt{-}\hlkwd{unlist}\hlstd{(w[}\hlnum{1}\hlstd{])}\hlopt{/}\hlkwd{unlist}\hlstd{(w[}\hlnum{3}\hlstd{])} \hlopt{-} \hlstd{x[}\hlnum{2}\hlstd{])\}}
+
+\hlstd{pred} \hlkwb{<-} \hlkwd{data.frame}\hlstd{(}\hlkwc{x1}\hlstd{=}\hlkwd{runif}\hlstd{(}\hlkwc{n}\hlstd{=}\hlnum{1000}\hlstd{,}\hlkwc{min}\hlstd{=}\hlopt{-}\hlnum{1}\hlstd{,}\hlkwc{max}\hlstd{=}\hlnum{1}\hlstd{),}
+                   \hlkwc{x2}\hlstd{=}\hlkwd{runif}\hlstd{(}\hlkwc{n}\hlstd{=}\hlnum{1000}\hlstd{,}\hlkwc{min}\hlstd{=}\hlopt{-}\hlnum{1}\hlstd{,}\hlkwc{max}\hlstd{=}\hlnum{1}\hlstd{))}
+\hlstd{pred}\hlopt{$}\hlstd{TrCat} \hlkwb{<-} \hlkwd{apply}\hlstd{(pred,}\hlnum{1}\hlstd{,y)}
+\hlstd{pred}\hlopt{$}\hlstd{HyCat} \hlkwb{<-} \hlkwd{apply}\hlstd{(pred,}\hlnum{1}\hlstd{,yhyp)}
+\hlstd{err} \hlkwb{<-} \hlkwd{sum}\hlstd{(pred}\hlopt{$}\hlstd{TrCat}\hlopt{!=}\hlstd{pred}\hlopt{$}\hlstd{HyCat)}
+\hlstd{cumerr} \hlkwb{<-} \hlkwd{sum}\hlstd{(cumerr, err)}
+\hlstd{\}}
+\hlstd{cumerr}\hlopt{/}\hlstd{(}\hlnum{1000}\hlopt{*}\hlnum{10}\hlstd{)}
+\end{alltt}
+\begin{verbatim}
+## [1] 0.0219
+\end{verbatim}
+\begin{alltt}
+\hlstd{cumsum}\hlopt{/}\hlnum{10}
+\end{alltt}
+\begin{verbatim}
+## [1] 135.8
+\end{verbatim}
+\begin{alltt}
+\hlkwd{dev.off}\hlstd{()}
+\end{alltt}
+\begin{verbatim}
+## pdf 
+##   2
+\end{verbatim}
+\end{kframe}
+\end{knitrout}
+
+
+\end{document}
